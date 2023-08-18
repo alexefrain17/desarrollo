@@ -24,9 +24,10 @@ public class Desarrollo {
         for (int i j = 0; j < numeros.length - i - 1; j++){
          if  (numeros[j] > numeros [j + 1]){
             //intercabion de numeros 
-            
+            int temp = numeros[j];
+            numeros[j] = numeros[j + 1];
+            numeros[j + 1] = temp:
          }
      }
-     }
-    }
-}
+   }
+   

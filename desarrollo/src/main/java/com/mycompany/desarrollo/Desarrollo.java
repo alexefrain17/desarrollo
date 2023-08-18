@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.desarrollo;
-import java.util..Scanner;
+import java.util.Scanner;
 /**
  *
  * @author Alumno
@@ -11,23 +11,7 @@ import java.util..Scanner;
 public class Desarrollo {
 
     public static void main(String[] args) {
-     Scanner scanner = new Scanner(System.in);
-     int[] numeros1 = int[5];
-     
-     //para ingresar numeros
-     for (int i = o; < numeros.length; i++){
-         System.out.print("ingrese el numero" + (i + 1) + ": ");
-         numeros1[i] = scanner.nextInt();
          
-     }
-     for (int i = o; < numeros.length; i++){
-        for (int i j = 0; j < numeros.length - i - 1; j++){
-         if  (numeros[j] > numeros [j + 1]){
-            //intercabion de numeros 
-            int temp = numeros[j];
-            numeros[j] = numeros[j + 1];
-            numeros[j + 1] = temp:
-         }
-     }
-   }
+          
+    
    

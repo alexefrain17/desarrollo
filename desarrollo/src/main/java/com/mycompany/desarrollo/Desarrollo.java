@@ -14,7 +14,18 @@ public class Desarrollo {
      Scanner scanner = new Scanner(System.in);
      int[] numeros1 = int[5];
      
-    
+     //para ingresar numeros
+     for (int i = o; < numeros.length; i++){
+         System.out.print("ingrese el numero" + (i + 1) + ": ");
+         numeros1[i] = scanner.nextInt();
+         
+     }
+     for (int i = o; < numeros.length; i++){
+         for (int i j = 0; j < numeros.length - i - 1; j++){
+         if  (numeros[j] > numeros [j + 1]){
              
          }
+     }
+     }
+    }
 }
